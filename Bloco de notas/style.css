@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Pushster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #0B486B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header{
+    text-align: center;
+    margin-top: 100px;
+}
+
+header h1{
+    font-size: 40px;
+}
+
+.notes{
+    width: 600px;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input[type="text"]{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+}
+
+textarea{
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    width: 40%;
+    height: 40px;
+    margin: 10px;
+    border: 0;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #000;
+}
+
+#salvar{
+    background-color: #008000;
+    color: white;
+}
+#salvar:hover{
+    background-color: #065f06;
+}
+#del{
+    background-color: #ff0000;
+    color: white;
+}
+#del:hover{
+    background-color: #6b0909;
+
+}
+
+.notas-salvas{
+    margin-top: 50px;
+}
+
+.notas-salvas > h1{
+    font-size: 40px;
+}
+
+.notas-salvas-single{
+    width: 600px;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.notas-salvas-single > h1{
+    font-size: 25px;
+}
+
+.notas-salvas-single > p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.btn-del{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 15px;
+    padding: 5px 8px;
+    border-radius: 10px;
+
+    background-color: #ff0000;
+}
